@@ -5,6 +5,7 @@ import HomePage from "./components/home/HomePage";
 import Footer from "./components/Footer";
 import ReviewPage from "./components/review/ReviewPage";
 import LoginPage from "./components/auth/LoginPage";
+import CarPage from "./components/car/CarPage";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <div className="App" >
       <Routes>
         <Route path="/review" element={<ReviewPage />} />
+        <Route path="/rent" element={<CarPage />} />
         <Route path="/loginpage" element={<LoginPage />} />
         <Route path="/" element={<HomePage />} />
       </Routes>

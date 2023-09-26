@@ -7,16 +7,18 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+    font-family: Poppins;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+    font-family: Poppins;
 }
 
 a:link {
@@ -36,13 +38,14 @@ a:visited {
   justify-content: center;
   color: white;
   width: 800px;
+  /* position: absolute; */
 }
 
 .navbar {
   background-color: black;
   color: white;
   margin: auto;
-  width: 750px;
+  width: 800px;
   padding: 20px;
 }
 
@@ -52,7 +55,7 @@ a:visited {
   padding: 5px;
   margin: 0 6px 6px;
   background: none;
-  font-size: 12px;
+  font-size: 15px;
   text-decoration: line;
 }
 
@@ -93,31 +96,27 @@ a:visited {
   color: white;
   margin: auto;
   text-align: center;
-  width: 750px;
-  height: 400px;
+  width: 800px;
+  height: 600px;
+  padding-top: 200px;
 }
 
 .banner-image {
   background-color: black;
-  width: 750px;
+  width: 800px;
   height: 350px;
   margin: auto;
 }
 
 .headline-text {
 color: white;
-font-size: 20px;
-font-family: Poppins;
+font-size: 30px;
 line-height: 50px;
 word-wrap: break-word;
-position: absolute;
-top: 10%;
-left: 30%;
-width: 500px;
 }
 
 .banner {
-  width: 600px;
+  width: 800px;
   height: 400px;
   border-radius: 50%;
   object-fit: cover;
@@ -128,7 +127,7 @@ width: 500px;
   color: black;
   margin: auto;
   text-align: center;
-  width: 750px;
+  width: 800px;
   padding: 20px;
 }
 
@@ -137,7 +136,7 @@ width: 500px;
   color: black;
   margin: auto;
   text-align: center;
-  width: 750px;
+  width: 800px;
   padding: 20px;
 }
 

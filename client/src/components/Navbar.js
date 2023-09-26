@@ -11,7 +11,7 @@ function Navbar() {
       <div className='nav-container'>
       <div className='nav-child-1'>
         <div>
-          <img src='hamicon.png' width='20px' onClick={openMenu} />
+          <img src='hamicon.png' alt='hamicon' width='20px' onClick={openMenu} />
           <div className='dropdown-menu'>
             {openMenuMode && <MenuItems/>}
           </div>

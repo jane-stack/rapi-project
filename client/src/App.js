@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
     <Navbar />
-    <div className="App">
+    <div className="App" alt='rapilogo' >
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>

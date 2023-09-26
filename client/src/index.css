@@ -54,7 +54,16 @@ a:visited {
 }
 
 .middlehomediv {
-  background-color: rgb(242, 242, 242);
+  background-color: white;
+  color: black;
+  margin: auto;
+  text-align: center;
+  width: 800px;
+  padding: 20px;
+}
+
+.bottomhomediv {
+  background-color: rgb(223, 223, 223);
   color: black;
   margin: auto;
   text-align: center;

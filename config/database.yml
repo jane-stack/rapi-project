@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: rapi_project_production
-  username: rapi_project
-  password: <%= ENV["RAPI_PROJECT_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>

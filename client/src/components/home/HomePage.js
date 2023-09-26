@@ -4,7 +4,7 @@ function HomePage() {
   return (
     <div>
       <div className='upperhomediv'>
-        <img src='democarbanner.jpg' alt='demobanner' width='350' />
+        <img src='banner.jpg' alt='demobanner' className='banner' />
       </div>
       <div className='middlehomediv'>
         <h2><strong>Our Impressive Collection of Cars</strong></h2>

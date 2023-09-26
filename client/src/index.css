@@ -44,6 +44,13 @@ a:visited {
   margin: auto;
   text-align: center;
   width: 800px;
+  height: 200px;
+}
+
+.banner {
+  width: 800px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .middlehomediv {

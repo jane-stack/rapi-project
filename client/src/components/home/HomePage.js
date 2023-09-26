@@ -4,7 +4,10 @@ function HomePage() {
   return (
     <div>
       <div className='upperhomediv'>
-        <img src='banner.jpg' alt='demobanner' className='banner' />
+        <div className='banner-image'>
+        <img src='image23.png' alt='demobanner' className='banner'/>
+        <div className='headline-text'>Unleash your road adventure and discover unforgettable journeys with our premium car rentals.</div>
+        </div>
       </div>
       <div className='middlehomediv'>
         <p><strong>Choose by Brand</strong></p>

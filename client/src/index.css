@@ -34,7 +34,7 @@ a:visited {
   background-color: none;
   display: flex;
   justify-content: center;
-  color: black;
+  color: white;
   width: 800px;
 }
 
@@ -79,6 +79,16 @@ a:visited {
   padding: 20px;
 }
 
+.nav-link {
+  display: inline-block;
+  width: auto;
+  padding: 5px;
+  margin: 0 6px 6px;
+  background: none;
+  font-size: 12px;
+  text-decoration: line;
+}
+
 .nav-container {
   display: flex;
   align-items: center;
@@ -98,6 +108,14 @@ a:visited {
 .nav-child-3 {
   width: 250px;
   text-align: right;
+}
+
+.menu-trigger {
+  background-color: rgb(65, 65, 65);
+  padding: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 200px;
 }
 
 .Footer {

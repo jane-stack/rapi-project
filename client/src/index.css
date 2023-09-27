@@ -96,12 +96,9 @@ textarea:focus, input:focus {
 }
 
 .menu-trigger {
-  /* /* background-color: rgb(29, 29, 29); */
+  background-color: black;
   border: 1px solid rgb(38, 38, 38);
-  /* padding: 2px; */
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 200px;
+  width: 150px;
   position: fixed;
   
 }
@@ -190,12 +187,12 @@ word-wrap: break-word;
 }
 
 .form-login {
-  padding: 80px;
+  padding-top: 60px;
   text-align: center;
-  padding-bottom: 200px;
   color: white;
   display: block;
-  height: 15em;
+  width: 400px;
+  height: 450px;
   line-height: 3.5;
   border: 1px solid rgb(97, 97, 97);
 }

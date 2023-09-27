@@ -98,7 +98,7 @@ textarea:focus, input:focus {
   background-color: black;
   border: 1px solid rgb(38, 38, 38);
   width: 150px;
-  position: fixed;
+  position: absolute;
   
 }
 
@@ -177,16 +177,16 @@ word-wrap: break-word;
 
 .bottomhomediv {
   margin: auto;
+  background-color: rgb(230, 230, 230);
+  color: black;
   text-align: center;
   width: 840px;
   padding: 20px;
-  padding-top: 200px;
   padding-bottom: 100px;
-  display: flex;
 }
 
-.bottom-child-1 {
-  width: 480px;
+/* .bottom-child-1 {
+  width: 520px;
   height: auto;
   background-color: rgb(230, 230, 230);
   color: black;
@@ -195,11 +195,35 @@ word-wrap: break-word;
 }
 
 .bottom-child-2 {
-  width: 360px;
+  width: 320px;
   height: auto;
-  /* background-color: rgb(203, 203, 203); */
-  color: white;
+  background-color: rgb(203, 203, 203);
+  color: black;
   margin: 3px;
+} */
+
+.button-div {
+  display: flex;
+  width: 840px;
+  height: auto;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 10px
+}
+
+.car-btn-div {
+  border: 1px solid rgb(97, 97, 97) ;
+  border-radius: 10px;
+
+}
+
+.car-button {
+  background-color: white;
+  font-family: Poppins;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  padding: 10px;
 }
 
 .form-login {

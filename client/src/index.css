@@ -119,6 +119,16 @@ word-wrap: break-word;
   object-fit: cover;
 }
 
+.about-section {
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 500px;
+  height: 600px;
+  padding-top: 300px;
+}
+
 .middlehomediv {
   background-color: white;
   color: black;

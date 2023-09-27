@@ -19,9 +19,9 @@ function App() {
         <Route path="/review" element={<ReviewPage />} />
         <Route path="/rent" element={<CarPage />} />
         <Route path="/loginpage" element={<LoginPage />} />
-        <Route path="/about" element={<AboutService />} />
         <Route path="/" element={<HomePage />} />
       </Routes>
+      <AboutService />
     </div>
     <div className="Footer">
       <Footer />

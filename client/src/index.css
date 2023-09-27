@@ -185,6 +185,12 @@ word-wrap: break-word;
   padding-bottom: 100px;
 }
 
+.car-intro-div {
+  justify-content: center;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
 /* .bottom-child-1 {
   width: 520px;
   height: auto;
@@ -214,16 +220,30 @@ word-wrap: break-word;
 .car-btn-div {
   border: 1px solid rgb(97, 97, 97) ;
   border-radius: 10px;
-
 }
 
 .car-button {
   background-color: white;
+  color: black;
   font-family: Poppins;
   border: none;
   border-radius: 10px;
   height: 30px;
-  padding: 10px;
+}
+
+.all-car-btn-div {
+  border-radius: 10px;
+}
+
+.all-car-btn {
+  background-color: black;
+  color: white;
+  font-family: Poppins;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .form-login {

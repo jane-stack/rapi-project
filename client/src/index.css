@@ -41,7 +41,7 @@ textarea:focus, input:focus {
   color: white;
   width: 840px;
   height: auto;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 
 .navbar {
@@ -117,7 +117,7 @@ textarea:focus, input:focus {
   width: 840px;
   height: auto;
   margin: auto;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 
 .headline-text {
@@ -136,7 +136,6 @@ padding-left: 155px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  padding-bottom: 200px;
 }
 
 .about-section {
@@ -328,4 +327,44 @@ padding-left: 155px;
 .footer-links {
   padding: 8px;
   font-size: 15px;
+}
+
+.car-collection {
+  padding: 20px;
+}
+
+.image-container {
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 8px #999;
+  display: flex;
+  flex-direction: column;
+}
+
+.car-image-div {
+  padding-top: 4px;
+}
+
+.car-image {
+  width: 12rem;
+  height: 8rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.image-title {
+  font-weight: bold;
+}
+
+.rent-now-btn {
+  background-color: black;
+  color: white;
+  font-family: Poppins;
+  border: none;
+  border-radius: 1rem;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }

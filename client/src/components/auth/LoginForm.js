@@ -3,6 +3,7 @@ import React from 'react'
 function LoginForm() {
   return (
     <form className="form-login">
+      <img src='whitelogo.png' alt='rapilogo' width='100px' />
       <h3>SIGN IN</h3>
       <div>
       <input

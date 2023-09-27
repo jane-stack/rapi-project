@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import ReviewPage from "./components/review/ReviewPage";
 import LoginPage from "./components/auth/LoginPage";
 import CarPage from "./components/car/CarPage";
+import AboutService from "./components/AboutService";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/review" element={<ReviewPage />} />
         <Route path="/rent" element={<CarPage />} />
         <Route path="/loginpage" element={<LoginPage />} />
+        <Route path="/about" element={<AboutService />} />
         <Route path="/" element={<HomePage />} />
       </Routes>
     </div>

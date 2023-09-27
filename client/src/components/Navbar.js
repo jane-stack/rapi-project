@@ -11,17 +11,17 @@ function Navbar() {
       <div className='nav-container'>
       <div className='nav-child-1'>
         <div>
-          <img src='hamicon.png' alt='hamicon' width='20px' onClick={openMenu} />
+          <img src='hamicon.png' alt='hamicon' width='30px' onClick={openMenu} />
           <div className='dropdown-menu'>
             {openMenuMode && <MenuItems/>}
           </div>
         </div>
       </div>
       <div className='nav-child-2'>
-        <img src='whitelogo.png' alt='rapilogo' width='80px' />
+        <img src='whitelogo.png' alt='rapilogo' width='100px' />
       </div>
       <div className='nav-child-3'>
-        <Link className='nav-link' to="/loginpage">Login</Link>
+        <Link className='nav-link-login' to="/loginpage">Login</Link>
       </div>
       </div>
     </div>

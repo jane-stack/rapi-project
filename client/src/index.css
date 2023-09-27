@@ -50,7 +50,7 @@ textarea:focus, input:focus {
   margin: auto;
   width: 840px;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .nav-link {
@@ -125,13 +125,18 @@ color: white;
 font-size: 30px;
 line-height: 50px;
 word-wrap: break-word;
+width: 500px;
+height: 150px;
+justify-content: center;
+padding-left: 155px;
 }
 
 .banner {
   width: 840px;
-  height: 400px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
+  padding-bottom: 200px;
 }
 
 .about-section {
@@ -164,6 +169,12 @@ word-wrap: break-word;
 .about-child-3 {
   width: 280px;
   padding: 10px;
+}
+
+.service-info {
+  justify-content: center;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .middlehomediv {

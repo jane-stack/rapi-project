@@ -7,9 +7,12 @@ function CardCard() {
         <div className='image-title'>Audi A8 L 2022</div>
         <div className='image-price'><strong>78.90</strong>/day</div>
         <br />
+        <div className='card-section'>
+
+        </div>
         <br />
         <div>
-        <button className='rent-now-btn'>RENT NOW</button>
+        <button className='car-detail-btn'>Details</button>
         </div>
     </div>
   )

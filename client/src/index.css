@@ -382,3 +382,34 @@ padding-left: 155px;
   height: 30px;
   width: 100%;
 }
+
+.customer-review {
+  background-color: rgb(230, 230, 230);
+  color: black;
+  width: 840px;
+  height: 600px;
+  padding: 80px;
+  text-align: left;
+}
+
+.customer-information {
+  display: flex;
+}
+
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: gray;
+}
+
+.profile-info {
+  padding: 20px;
+  line-height: 1;
+}
+
+.customer-from {
+  color: gray;
+  font-size: 12px;
+}

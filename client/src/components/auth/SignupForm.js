@@ -102,7 +102,6 @@ function SignupForm() {
       placeholder="Password"
       value={password}
       onChange={(e) => setPassword(e.target.value)}
-      required= "true"
       />
       {type1 === "password" ? (
         <span className='icon-span' onClick={() => setType1("text")}>
@@ -123,7 +122,6 @@ function SignupForm() {
       placeholder="Re-Enter Password"
       value={password_confirmation}
       onChange={(e) => setPassword_confirmation(e.target.value)}
-      required= "true"
       />
       {type2 === "password" ? (
         <span className='icon-span' onClick={() => setType2("text")}>

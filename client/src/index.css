@@ -265,20 +265,63 @@ padding-left: 155px;
   height: 450px;
   line-height: 3.5;
   border: 1px solid rgb(97, 97, 97);
+  box-shadow: 0px 5px 10px #909090;
+}
+
+.form-signup {
+  padding-top: 60px;
+  text-align: center;
+  color: white;
+  display: block;
+  width: 400px;
+  height: 600px;
+  line-height: 3.5;
+  border: 1px solid rgb(97, 97, 97);
+  box-shadow: 0px 5px 10px #909090;
+  align-items: center;
 }
 
 .login-input {
-  border: 1px solid rgb(97, 97, 97);
+  /* border: 1px solid rgb(97, 97, 97); */
+  border: none;
   padding: 3%;
-  width: 300px;
   font-family: Poppins;
+}
+
+.input-box {
+  background-color: white;
+  border: 1px solid rgb(97, 97, 97);
+  width: 300px;
+  margin: auto;
+  text-align: left;
+  padding-left: 7px;
+}
+
+.input-with-icon-div {
+  display: flex;
+  width: 300px;
+  background-color: white;
+  color: black;
+  padding: 3px;
+}
+
+.icon-span {
+  cursor: pointer;
+}
+
+.custom-input {
+  width: 250px;
+  border: none;
+  outline: none;
+  font-family: Poppins;
+  padding: 10px;
 }
 
 .login-btn {
   background-color: rgb(29, 29, 29);
   border: 1px solid white;
   color: white;
-  width: 321px;
+  width: 307px;
   padding: 3%;
   font-family: Poppins;
 }

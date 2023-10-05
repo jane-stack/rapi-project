@@ -134,13 +134,6 @@ function SignupForm() {
       )}
       </div>
       <button type="submit" className="login-btn">Create Account</button>
-      {/* <div className='validation-box'>
-        <p>A <strong>lowercase</strong> letter</p>
-        <p>A <strong>Uppercase</strong> letter</p>
-        <p>A <strong>number</strong></p>
-        <p>A <strong>special character</strong></p>
-        <p>Minimum <strong>8 characters</strong></p>
-      </div> */}
       <Errors />
   </form>
   )

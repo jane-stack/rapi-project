@@ -2,6 +2,8 @@ import React, { useContext, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import { UserContext } from '../context/UserContext';
 import MenuItems from './MenuItems';
+import Icon from 'react-icons-kit';
+import {bars} from 'react-icons-kit/fa/bars'
 
 function Navbar() {
   const { loggedIn, logoutUser } = useContext(UserContext);
@@ -36,7 +38,10 @@ function Navbar() {
       <div className='nav-container'>
         <div className='nav-child-1'>
           <div>
-            <img src='hamicon.png' alt='hamicon' width='30px' onClick={openMenu} />
+            {/* <img src="hamicon.png" alt='hamicon' width='30px' onClick={openMenu} /> */}
+            <span className='icon-span' onClick={openMenu}>
+              <Icon icon={bars} size={25} />
+            </span>
             <div className='dropdown-menu'>
               {openMenuMode && <MenuItems/>}
             </div>

@@ -22,7 +22,7 @@ function SignupForm() {
 
   useEffect(() => {
     if (loggedIn) {
-      navigate('/')
+      navigate('/account')
     } else {
       return (
         setErrors([])
@@ -51,7 +51,7 @@ function SignupForm() {
       } else {
         addUser(data);
         loginUser(data);
-        navigate('/')
+        navigate('/account')
       }
     })
   }

@@ -17,7 +17,7 @@ function LoginForm() {
 
   useEffect(() => {
     if (loggedIn) {
-      navigate('/')
+      navigate('/account')
     } else {
       return (
         setErrors([])
@@ -41,7 +41,7 @@ function LoginForm() {
         setPassword("");
       } else {
         loginUser(data);
-        navigate('/')
+        navigate('/account')
       }
     })
   }

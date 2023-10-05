@@ -38,7 +38,6 @@ function Navbar() {
       <div className='nav-container'>
         <div className='nav-child-1'>
           <div>
-            {/* <img src="hamicon.png" alt='hamicon' width='30px' onClick={openMenu} /> */}
             <span className='icon-span' onClick={openMenu}>
               <Icon icon={bars} size={25} />
             </span>

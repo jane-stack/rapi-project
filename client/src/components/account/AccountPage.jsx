@@ -8,7 +8,9 @@ function AccountPage () {
     const signedIn = () => {
         return (
             <div>
-                <h3>Account Page : Welcome User</h3>
+                <header>
+                <img src='accountbanner.png' alt='accountbanner' className='account-banner'/>
+                </header>
             </div>
         )
     }

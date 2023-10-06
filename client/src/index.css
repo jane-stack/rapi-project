@@ -457,3 +457,17 @@ padding-left: 155px;
   color: gray;
   font-size: 12px;
 }
+
+.account-banner {
+  width: 840px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.account-nav {
+  background-color: #999;
+  /* position: fixed; */
+  border-radius: 10%;
+  height: 80px;
+  width: 740px;
+}

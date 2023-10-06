@@ -7,7 +7,7 @@ function AccountPage () {
 
     const signedIn = () => {
         return (
-            <div>
+            <div className='account-page-div'>
                 <header>
                 <img src='accountbanner.png' alt='accountbanner' className='account-banner'/>
                 </header>
@@ -16,6 +16,10 @@ function AccountPage () {
                     <div className="account-btn-div"><button className="account-btn">Profile</button></div>
                     <div className="account-btn-div"><button className="account-btn">Documents</button></div>
                     <div className="account-btn-div"><button className="account-btn account-border-radius-right">Upgrade</button></div>
+                </div>
+                <br />
+                <div className="account-middle-div">
+
                 </div>
             </div>
         )

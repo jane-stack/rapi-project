@@ -458,6 +458,11 @@ padding-left: 155px;
   font-size: 12px;
 }
 
+.account-page-div {
+  background-color: black;
+
+}
+
 .account-banner {
   width: 840px;
   height: 300px;
@@ -498,4 +503,11 @@ padding-left: 155px;
 
 .account-border-radius-right {
   border-radius:  0 2rem 2rem 0 ;
+}
+
+.account-middle-div {
+  background-color: #fff;
+  width: 800px;
+  height: 1000px;
+  margin: auto;
 }

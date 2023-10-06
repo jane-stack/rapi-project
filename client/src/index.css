@@ -517,10 +517,12 @@ padding-left: 155px;
 
 .left-div {
   width: 500px;
+  color: black;
 }
 
 .right-div {
   background-color: rgba(243, 243, 243, 0.90);
+  color: black;
   width: 250px;
   height: 800px;
   border-radius: 1rem;

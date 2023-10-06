@@ -9,7 +9,7 @@ import UpgradePage from "./UpgradePage";
 
 function AccountPage () {
     const { loggedIn } = useContext(UserContext);
-    const [openDiv, setOpenDiv] = useState(null);
+    const [openDiv, setOpenDiv] = useState('div2');
 
     const handleBtnClick = (divId) => {
         if (openDiv === divId) {
@@ -36,7 +36,7 @@ function AccountPage () {
                     <div style={{display: openDiv === 'div1' ? 'block' : 'none'}}><DashboardPage /></div>
                     <div style={{display: openDiv === 'div2' ? 'block' : 'none'}}><ProfilePage /></div>
                     <div style={{display: openDiv === 'div3' ? 'block' : 'none'}}><DocumentPage /></div>
-                    <div style={{display: openDiv === 'div4' ? 'block' : 'none'}}><UpgradePage />></div>
+                    <div style={{display: openDiv === 'div4' ? 'block' : 'none'}}><UpgradePage /></div>
                 </div>
             </div>
         )

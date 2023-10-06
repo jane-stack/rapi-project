@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutService from '../AboutService'
+// import AboutService from '../AboutService'
 
 function HomePage() {
   return (
@@ -11,7 +11,7 @@ function HomePage() {
           </div>
         <img src='image23.png' alt='rapibanner' className='banner'/>
         </div>
-        <AboutService />
+        {/* <AboutService /> */}
         </div>
     </div>
   )

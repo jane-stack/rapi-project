@@ -3,12 +3,13 @@ import { Link, useNavigate } from 'react-router-dom';
 import { UserContext } from '../context/UserContext';
 import MenuItems from './MenuItems';
 import Icon from 'react-icons-kit';
-import {bars} from 'react-icons-kit/fa/bars'
+import {bars} from 'react-icons-kit/fa/bars';
 
 function Navbar() {
   const { loggedIn, logoutUser } = useContext(UserContext);
   const [openMenuMode, setOpenMenuMode] = useState(false);
-  const openMenu = () => setOpenMenuMode(openMenuMode => !openMenuMode);
+  const openMenu = () => setOpenMenuMode(!openMenuMode);
+  const handleLinkClick = () => setOpenMenuMode(false);
   const navigate = useNavigate('/');
 
   const signoutUser = () => {
@@ -42,7 +43,7 @@ function Navbar() {
               <Icon icon={bars} size={25} />
             </span>
             <div className='dropdown-menu'>
-              {openMenuMode && <MenuItems/>}
+              {openMenuMode && <MenuItems handleLinkClick={handleLinkClick}/>}
             </div>
           </div>
         </div>

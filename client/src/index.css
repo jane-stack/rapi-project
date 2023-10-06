@@ -507,7 +507,22 @@ padding-left: 155px;
 
 .account-middle-div {
   background-color: #fff;
+  display: flex;
+  justify-content: center;
   width: 800px;
   height: 1000px;
   margin: auto;
+  padding-top: 25px;
+}
+
+.left-div {
+  width: 500px;
+}
+
+.right-div {
+  background-color: rgba(243, 243, 243, 0.90);
+  width: 250px;
+  height: 800px;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 8px #e2e2e2;
 }

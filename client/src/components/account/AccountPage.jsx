@@ -19,7 +19,12 @@ function AccountPage () {
                 </div>
                 <br />
                 <div className="account-middle-div">
+                    <div className="left-div">
 
+                    </div>
+                    <div className="right-div">
+
+                    </div>
                 </div>
             </div>
         )

@@ -51,7 +51,7 @@ function ProfilePage () {
                     <p><strong>Drop-off location</strong></p>
                     <p>1234 S Walter ST. Aurora, CO 80015</p>
                 </div>
-                <div>
+                <div className="right-div-1">
                     <h2>Price Details</h2>
                     <p>Car rental fee per day</p>
                     <p>Deposit fee</p>

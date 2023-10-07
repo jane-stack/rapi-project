@@ -5,6 +5,9 @@ function DashboardPage () {
             <div className="left-div">
                 Hello from Dash
             </div>
+            <div className="right-div">
+                overview
+            </div>
         </div>
     )
 }

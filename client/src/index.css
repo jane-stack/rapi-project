@@ -510,21 +510,65 @@ padding-left: 155px;
   display: flex;
   justify-content: center;
   width: 800px;
-  height: 1000px;
+  height: 800px;
   margin: auto;
   padding-top: 25px;
 }
 
 .left-div {
-  width: 500px;
+  width: 480px;
+  height: 800px;
   color: black;
+  justify-content: left;
 }
 
 .right-div {
   background-color: rgba(243, 243, 243, 0.90);
   color: black;
-  width: 250px;
-  height: 800px;
+  width: 270px;
+  height: 600px;
   border-radius: 1rem;
   box-shadow: 0px 10px 8px #e2e2e2;
+}
+
+.account-profile-section {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.account-profile-image {
+  width: 250px;
+  height: 300px;
+  border-radius: 2rem;
+  object-fit: cover;
+  background-color: gray;
+}
+
+.account-profile-info {
+  width: 250px;
+  height: 700px;
+  text-align: left;
+  padding: 20px;
+}
+
+.detail-title {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.account-text {
+  color: #AEAEAE;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.blue-text {
+  color: #2F80ED;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  font-size: 18px;
 }

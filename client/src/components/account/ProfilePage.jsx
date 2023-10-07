@@ -42,7 +42,22 @@ function ProfilePage () {
                 </div>
             </div>
             <div className="right-div">
-                overview
+                <div className="right-div-1">
+                    <h2>Overview</h2>
+                    <p><strong>Pick-up date</strong></p>
+                    <p>10-05-2023</p>
+                    <p><strong>Pick-up location</strong></p>
+                    <p>1234 S Walter ST. Aurora, CO 80015</p>
+                    <p><strong>Drop-off location</strong></p>
+                    <p>1234 S Walter ST. Aurora, CO 80015</p>
+                </div>
+                <div>
+                    <h2>Price Details</h2>
+                    <p>Car rental fee per day</p>
+                    <p>Deposit fee</p>
+                    <p>Days rent</p>
+                    <p>Taxes and fees</p>
+                </div>
             </div>
         </div>
     )

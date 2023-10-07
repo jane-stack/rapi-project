@@ -516,7 +516,7 @@ padding-left: 155px;
 }
 
 .left-div {
-  width: 480px;
+  width: 460px;
   height: 800px;
   color: black;
   justify-content: left;
@@ -525,10 +525,12 @@ padding-left: 155px;
 .right-div {
   background-color: rgba(243, 243, 243, 0.90);
   color: black;
-  width: 270px;
+  width: 250px;
   height: 600px;
   border-radius: 1rem;
   box-shadow: 0px 10px 8px #e2e2e2;
+  padding: 30px;
+  text-align: left;
 }
 
 .account-profile-section {
@@ -571,4 +573,9 @@ padding-left: 155px;
   line-height: normal;
   letter-spacing: 0.2px;
   font-size: 18px;
+}
+
+.right-div-1 {
+  width: 135px;
+  height: 300px;
 }

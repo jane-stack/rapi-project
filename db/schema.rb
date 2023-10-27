@@ -27,7 +27,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_27_160034) do
     t.string "address_line"
     t.string "city"
     t.string "state"
-    t.string "country"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 

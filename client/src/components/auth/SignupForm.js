@@ -14,6 +14,11 @@ function SignupForm() {
   const [first_name, setFirst_name] = useState("");
   const [last_name, setLast_name] = useState("");
   const [email, setEmail] = useState("");
+  const [phone_number, setPhone_number] = useState("");
+  const [birthday, setBirthday] = useState("");
+  const [address_line, setAddress_line] = useState("");
+  const [city, setCity] = useState("");
+  const [state, setState] = useState("");
   const [password, setPassword] = useState("");
   const [password_confirmation, setPassword_confirmation] = useState("");
   const navigate = useNavigate();
@@ -39,6 +44,11 @@ function SignupForm() {
         first_name,
         last_name,
         email,
+        phone_number,
+        birthday,
+        address_line,
+        city,
+        state,
         password,
         password_confirmation
       })
@@ -80,6 +90,8 @@ function SignupForm() {
           name="birthday"
           id="birthday"
           placeholder="Birth Date"
+          value={birthday}
+          onChange={(e) => setBirthday(e.target.value)}
           />
           </div>
           <div className='input-box'>
@@ -97,11 +109,11 @@ function SignupForm() {
           <input
           className="login-input"
           type="text"
-          name="last_name"
-          id="last_name"
+          name="phone_number"
+          id="phone_number"
           placeholder="Phone Number"
-          value={last_name}
-          onChange={(e) => setLast_name(e.target.value)}
+          value={phone_number}
+          onChange={(e) => setPhone_number(e.target.value)}
           />
           </div>
           <br />
@@ -163,33 +175,33 @@ function SignupForm() {
           <input
           className="login-input"
           type="text"
-          name="last_name"
-          id="last_name"
+          name="address_line"
+          id="address_line"
           placeholder="Address Line"
-          value={last_name}
-          onChange={(e) => setLast_name(e.target.value)}
+          value={address_line}
+          onChange={(e) => setAddress_line(e.target.value)}
           />
           </div>
           <div className='input-box'>
           <input
           className="login-input"
           type="text"
-          name="last_name"
-          id="last_name"
+          name="city"
+          id="city"
           placeholder="City"
-          value={last_name}
-          onChange={(e) => setLast_name(e.target.value)}
+          value={city}
+          onChange={(e) => setCity(e.target.value)}
           />
           </div>
           <div className='input-box'>
           <input
           className="login-input"
           type="text"
-          name="last_name"
-          id="last_name"
+          name="state"
+          id="state"
           placeholder="State"
-          value={last_name}
-          onChange={(e) => setLast_name(e.target.value)}
+          value={state}
+          onChange={(e) => setState(e.target.value)}
           />
           </div>
         </div>

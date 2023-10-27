@@ -268,13 +268,19 @@ padding-left: 155px;
   box-shadow: 0px 5px 10px #909090;
 }
 
+.signup-box-div {
+  display: flex;
+  width: 700px;
+  justify-content: center;
+}
+
 .form-signup {
   padding-top: 60px;
   text-align: center;
   color: white;
   display: block;
-  width: 400px;
-  height: 600px;
+  width: 700px;
+  height: 800px;
   line-height: 3.5;
   border: 1px solid rgb(97, 97, 97);
   box-shadow: 0px 5px 10px #909090;

@@ -11,12 +11,8 @@ function ProfilePage () {
                     <div className="account-profile-info">
                         <p className="account-text">Name</p>
                         <p>Sarah Brinestone</p>
-                        <p className="account-text">Gender</p>
-                        <p>Female</p>
                         <p className="account-text">Date of Birth</p>
                         <p>August 27th, 1999</p>
-                        <p className="account-text">Nationality</p>
-                        <p>Caucasian</p>
                     </div>
                 </div>
                 <br />
@@ -29,8 +25,6 @@ function ProfilePage () {
                         <p>Seattle</p>
                         <p className="account-text">State</p>
                         <p>Washington</p>
-                        <p className="account-text">Country</p>
-                        <p>USA</p>
                     </div>
                     <div className="account-profile-info">
                         <p className="blue-text">Contact Detail</p>

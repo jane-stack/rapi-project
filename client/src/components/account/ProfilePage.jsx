@@ -1,4 +1,5 @@
-function ProfilePage () {
+
+function ProfilePage ({me}) {
 
     return (
         <div className="account-middle-div">
@@ -10,9 +11,9 @@ function ProfilePage () {
                     </div>
                     <div className="account-profile-info">
                         <p className="account-text">Name</p>
-                        <p>Sarah Brinestone</p>
+                        <p>{me.first_name} {me.last_name}</p>
                         <p className="account-text">Date of Birth</p>
-                        <p>August 27th, 1999</p>
+                        <p>{me.birthday}</p>
                     </div>
                 </div>
                 <br />
@@ -20,18 +21,18 @@ function ProfilePage () {
                     <div className="account-profile-info">
                         <p className="blue-text">Address</p>
                         <p className="account-text">Address Line</p>
-                        <p>1234 S Renton Ave</p>
+                        <p>{me.address_line}</p>
                         <p className="account-text">City</p>
-                        <p>Seattle</p>
+                        <p>{me.city}</p>
                         <p className="account-text">State</p>
-                        <p>Washington</p>
+                        <p>{me.state}</p>
                     </div>
                     <div className="account-profile-info">
                         <p className="blue-text">Contact Detail</p>
                         <p className="account-text">Phone Number</p>
-                        <p>09034867656</p>
+                        <p>{me.phone_number}</p>
                         <p className="account-text">Email</p>
-                        <p>SarahB1999@gmail.com</p>
+                        <p>{me.email}</p>
                     </div>
                 </div>
             </div>

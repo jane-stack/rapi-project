@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 import { UserContext } from "../../context/UserContext";
 import LoginPage from "../auth/LoginPage";
@@ -10,6 +10,13 @@ import UpgradePage from "./UpgradePage";
 function AccountPage () {
     const { loggedIn } = useContext(UserContext);
     const [openDiv, setOpenDiv] = useState('div2');
+    const [me, setMe] = useState([]);
+
+    useEffect(() => {
+        fetch(`/me`)
+        .then(resp => resp.json())
+        .then(data => setMe(data))
+    }, [])
 
     const handleBtnClick = (divId) => {
         if (openDiv === divId) {
@@ -34,7 +41,7 @@ function AccountPage () {
                 <br />
                 <div className="account-middle-div">
                     <div style={{display: openDiv === 'div1' ? 'block' : 'none'}}><DashboardPage /></div>
-                    <div style={{display: openDiv === 'div2' ? 'block' : 'none'}}><ProfilePage /></div>
+                    <div style={{display: openDiv === 'div2' ? 'block' : 'none'}}><ProfilePage me={me} /></div>
                     <div style={{display: openDiv === 'div3' ? 'block' : 'none'}}><DocumentPage /></div>
                     <div style={{display: openDiv === 'div4' ? 'block' : 'none'}}><UpgradePage /></div>
                 </div>

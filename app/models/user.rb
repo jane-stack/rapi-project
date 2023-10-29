@@ -3,8 +3,11 @@ class User < ApplicationRecord
 
     before_save { self.first_name = first_name.titleize }
     before_save { self.last_name = last_name.titleize }
+    before_save { self.city = city.titleize }
+    before_save { self.state = state.titleize }
     before_save { self.email +=".com" unless email.end_with? (".com") }
     before_save { email.downcase! }
+    before_save { address_line.downcase! }
     
     validates :first_name, :last_name, :birthday, :phone_number, :address_line, :city, :state, presence: true
     validates :email, presence: true, uniqueness: true, format: { with: URI::MailTo::EMAIL_REGEXP }

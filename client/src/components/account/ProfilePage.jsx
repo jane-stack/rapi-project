@@ -1,5 +1,5 @@
 
-function ProfilePage ({me}) {
+function ProfilePage () {
 
     return (
         <div className="account-middle-div">
@@ -11,9 +11,9 @@ function ProfilePage ({me}) {
                     </div>
                     <div className="account-profile-info">
                         <p className="account-text">Name</p>
-                        <p>{me.first_name} {me.last_name}</p>
+                        <p></p>
                         <p className="account-text">Date of Birth</p>
-                        <p>{me.birthday}</p>
+                        <p></p>
                     </div>
                 </div>
                 <br />
@@ -21,18 +21,18 @@ function ProfilePage ({me}) {
                     <div className="account-profile-info">
                         <p className="blue-text">Address</p>
                         <p className="account-text">Address Line</p>
-                        <p>{me.address_line}</p>
+                        <p></p>
                         <p className="account-text">City</p>
-                        <p>{me.city}</p>
+                        <p></p>
                         <p className="account-text">State</p>
-                        <p>{me.state}</p>
+                        <p></p>
                     </div>
                     <div className="account-profile-info">
                         <p className="blue-text">Contact Detail</p>
                         <p className="account-text">Phone Number</p>
-                        <p>{me.phone_number}</p>
+                        <p></p>
                         <p className="account-text">Email</p>
-                        <p>{me.email}</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
